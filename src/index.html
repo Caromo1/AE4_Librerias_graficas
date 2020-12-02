@@ -8,9 +8,18 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 </head>
 
-<body>
+<body> 
     <canvas id="myChart" width="400" height="400"></canvas>
-    <canvas id="kiko" width="400" height="400"></canvas>
+    <form action="envia.php">
+        <label for="meses">Meses</label>
+        <input type="textbox" id="meses" name="fname">
+        <label for="temperatura">Temperatura</label>
+        <input type="textbox" id="temperatura" name="temp">
+        <label for="lluvia">LLuvia</label>
+        <input type="textbox" id="lluvia" name="lluv">
+    </form>
+    <button id="envia" onclick="validaform()">Validar</button>
 </body>
 <script src="../assets/js/main.js"></script>
+
 </html>
