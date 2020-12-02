@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AE3</title>
+    <meta charset="UTF-8">
+    <link rel="sytlesheet" href="assets/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="bundle.js"></script>
+</head>
+
+<body> 
+    <canvas id="myChart" width="400" height="400"></canvas>
+    <form action="envia.php">
+        <label for="meses">Meses</label>
+        <input type="textbox" id="meses" name="fname">
+        <label for="temperatura">Temperatura</label>
+        <input type="textbox" id="temperatura" name="temp">
+        <label for="lluvia">LLuvia</label>
+        <input type="textbox" id="lluvia" name="lluv">
+    </form>
+    <button id="envia" onclick="validaform()">Validar</button>
+</body>
+<script src="../assets/js/main.js"></script>
+
+</html>
