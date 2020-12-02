@@ -1,6 +1,6 @@
 {
   "name": "ae4_librerias_graficas",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Selección de librerías y uso de librerías de gráficos",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Caromo1/AE4_Librerias_graficas.git"
   },
   "author": "Carlos Rodriguez Monzo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Caromo1/AE4_Librerias_graficas/issues"
   },
